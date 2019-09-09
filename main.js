@@ -25,5 +25,5 @@ function calc() {
     }
 
     // console.log(calculate);
-    document.querySelector("result").innerHTML = calculate;
+    document.querySelector("#result").innerHTML = calculate;
 }
