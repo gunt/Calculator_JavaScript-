@@ -19,8 +19,11 @@ function calc() {
     } else if (op == "min") {
         calculate = a - b;
     } else if (op == "div") {
-        calculate = a - b;
+        calculate = a / b;
     } else if (op == "mul") {
-        calculate = a - b
+        calculate = a * b;
     }
+
+    // console.log(calculate);
+    document.querySelector("result").innerHTML = calculate;
 }
